@@ -53,7 +53,7 @@
         - "ec2:DescribeImages" - view all AMIs
         - "ec2:DescribeSnapshots" - view all Snapshots
     
-    ![image.png](Create%20Read-Only%20IAM%20Policy%20for%20EC2%20Console%20Access/image.png)
+        <img width="1462" height="907" alt="image" src="https://github.com/user-attachments/assets/013b96ce-39db-4cc8-aee3-2113e611f46a" />
     
 7. Click **Next**.
 8. Enter the policy name: `iampolicy_ravi`.
@@ -61,7 +61,7 @@
 10. Click **Create policy**.
 11. Confirm the policy appears in the list.
     
-    ![image.png](Create%20Read-Only%20IAM%20Policy%20for%20EC2%20Console%20Access/image%201.png)
+    <img width="1467" height="736" alt="image" src="https://github.com/user-attachments/assets/6344d7af-8b90-4f24-a0f7-c1050bc4c407" />
     
 
 ### Quick check
