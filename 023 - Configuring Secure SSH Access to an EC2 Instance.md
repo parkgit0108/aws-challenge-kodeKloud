@@ -21,18 +21,16 @@
     1. Run `ssh-keygen`.
     2. Confirm where the key is saved.
         
-        ![image.png](Configuring%20Secure%20SSH%20Access%20to%20an%20EC2%20Instance/image.png)
+        <img width="1310" height="799" alt="image" src="https://github.com/user-attachments/assets/5b332b2e-1842-4611-add1-3b826fec59f0" />
         
 3. Copy the public key content:
     1. Run `cat /root/.ssh/id_rsa.pub`.
     2. Copy the output.
         
-        ![image.png](Configuring%20Secure%20SSH%20Access%20to%20an%20EC2%20Instance/image%201.png)
-        
 4. Add the public key to the EC2 instance `authorized_keys`:
     1. Select the EC2 instance and **connect** to the console.
         
-        ![image.png](Configuring%20Secure%20SSH%20Access%20to%20an%20EC2%20Instance/image%202.png)
+        <img width="1471" height="576" alt="image" src="https://github.com/user-attachments/assets/f83da694-7ff3-4c1a-a7ea-9a000d116792" />
         
     2. Open `/root/.ssh/authorized_keys` in **nano** or **vi**.
     3. Paste the public key output from the previous step.
@@ -40,7 +38,7 @@
 5. Test SSH connectivity:
     1. From the AWS client, SSH to the EC2 **public IP**.
         
-        ![image.png](Configuring%20Secure%20SSH%20Access%20to%20an%20EC2%20Instance/image%203.png)
+        <img width="1469" height="613" alt="image" src="https://github.com/user-attachments/assets/c592c38e-ae72-4962-b4e8-dffd122a7f69" />
         
 
 ### Quick check
