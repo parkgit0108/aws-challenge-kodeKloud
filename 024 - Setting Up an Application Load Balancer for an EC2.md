@@ -43,7 +43,7 @@
         - **Port:** 80
     7. Click **Include as pending**.
         
-        ![image.png](Setting%20Up%20an%20Application%20Load%20Balancer%20for%20an%20EC2/image.png)
+        <img width="1420" height="706" alt="image" src="https://github.com/user-attachments/assets/70cf8f2a-927a-49ec-85c4-6806ea6ddebe" />
         
     8. Click **Create target group**.
 3. Create an Application Load Balancer (`devops-alb`):
@@ -75,12 +75,12 @@
         1. Go to **EC2** → **Load Balancers** → `devops-alb`.
         2. Copy the **DNS name - can be found in load balancer page**
             
-            ![image.png](Setting%20Up%20an%20Application%20Load%20Balancer%20for%20an%20EC2/image%201.png)
-            
+            <img width="1448" height="928" alt="image" src="https://github.com/user-attachments/assets/ec89e1cc-89f6-462e-b1da-6e1d657539e2" />
+
         3. Open in a browser: `http://<alb-dns-name>`
         4. ✅ You should see the Nginx welcome page.
             
-            ![image.png](Setting%20Up%20an%20Application%20Load%20Balancer%20for%20an%20EC2/image%202.png)
+            <img width="1449" height="559" alt="image" src="https://github.com/user-attachments/assets/463265b2-0611-4e96-aa7f-ebb92a3b71cf" />
             
 
 ### Quick check
