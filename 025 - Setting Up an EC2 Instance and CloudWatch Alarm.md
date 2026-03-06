@@ -32,14 +32,14 @@
         - Left menu → **Alarms**
         - Click **Create alarm**
             
-            ![image.png](Setting%20Up%20an%20EC2%20Instance%20and%20CloudWatch%20Alarm/image.png)
+            <img width="1466" height="650" alt="image" src="https://github.com/user-attachments/assets/e0cb8291-1548-4d16-b554-be113b69c0fe" />
             
     2. Select the metric:
         1. Click **Select metric**
         2. Navigate:
             - **EC2** → **Per-Instance Metrics** → `CPUUtilization`
                 
-                ![image.png](Setting%20Up%20an%20EC2%20Instance%20and%20CloudWatch%20Alarm/image%201.png)
+                <img width="1464" height="920" alt="image" src="https://github.com/user-attachments/assets/feb5a71f-ecf3-4bc8-b152-dad421bb899c" />
                 
         3. Select the metric for `datacenter-ec2`
         4. Click **Select metric**
@@ -56,7 +56,7 @@
         | Datapoints to alarm | 1 out of 1 |
         | InstanceId | matches the ec2 instance you created |
         
-        ![image.png](Setting%20Up%20an%20EC2%20Instance%20and%20CloudWatch%20Alarm/image%202.png)
+        <img width="1272" height="1320" alt="image" src="https://github.com/user-attachments/assets/8af210fa-1fe7-40c7-ae4b-6924afee8764" />
         
     4. Configure alarm actions:
         - **Alarm state trigger:** In alarm
