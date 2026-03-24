@@ -17,6 +17,7 @@
 1. Go to the EC2 dashboard and select Security groups under Network & Security from the navigation pane.
 2. Select the available default security group.
 3. Edit Inbound rules as required.
+    * Allow SSH, HTTP from anywhere.
 
 #### Task 2: Enable SSH access to nautilus-ec2 from aws-client
 
